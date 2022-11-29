@@ -1,0 +1,7 @@
+c:\users\gudiel\documents\visual studio 2013\Projects\Proyecto_201404278\Proyecto_201404278\bin\Proyecto_201404278.dll.config
+c:\users\gudiel\documents\visual studio 2013\Projects\Proyecto_201404278\Proyecto_201404278\bin\Proyecto_201404278.dll
+c:\users\gudiel\documents\visual studio 2013\Projects\Proyecto_201404278\Proyecto_201404278\bin\Proyecto_201404278.pdb
+c:\users\gudiel\documents\visual studio 2013\Projects\Proyecto_201404278\Proyecto_201404278\obj\Debug\Proyecto_201404278.csprojResolveAssemblyReference.cache
+c:\users\gudiel\documents\visual studio 2013\Projects\Proyecto_201404278\Proyecto_201404278\obj\Debug\Proyecto_201404278.dll
+c:\users\gudiel\documents\visual studio 2013\Projects\Proyecto_201404278\Proyecto_201404278\obj\Debug\Proyecto_201404278.pdb
+C:\Users\GUDIEL\documents\visual studio 2013\Projects\Proyecto_201404278\Proyecto_201404278\bin\MessagingToolkit.QRCode.dll

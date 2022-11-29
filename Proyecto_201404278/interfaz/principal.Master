@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="principal.master.cs" Inherits="Proyecto_201404278.interfaz.principal1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>PLATAFORMA DE INGENIERIA EN CIENCIAS Y SISTEMAS</title>
+    <link href="../CSS/principal.css" rel="stylesheet" type="text/css" />
+
+       <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link id="link1" rel="stylesheet" href="/App_Themes/Tema1/estilos1.css" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   
+ 
+</head>
+<body id="fondo">
+    
+    <div class="container col-md-12" id="encabezado">
+
+        <div class="col-md-1 form-group">
+              <img src="/imagenes/ingenieria.png" class="img-responsive"  height="1290" width="" />
+                      </div>
+        <div class="col-md-11 form-group">
+              INGENIERIA EN CIENCIAS Y SITEMAS
+          </div>
+        </div>
+
+        <!--para los botones-->
+
+    <div class="container col-md-12" id="botonesgenerales" style="color:white;">
+            <div class="btn-group btn-group-justified">
+            <div class="btn-group">
+                <a href="/interfaz/principalInicio.aspx" type="button" class="btn btn-primary btn-lg" style="background-color:black;">INICIO</a>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary btn-lg" style="background-color:black;">QUE DESEA SABER?</button>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary btn-lg" style="background-color:black;">ACERCA DE</button>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary btn-lg" style="background-color:black;">QUE NECESITAS</button>
+            </div>
+        <div class="btn-group">
+                <button type="button" class="btn btn-primary btn-lg" style="background-color:black;">INSTRUCTOR</button>
+            </div>
+       
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle btn-lg" data-toggle="dropdown" style="background-color:black;">
+                    ESTUDIANTE <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="/interfaz/registroEstudiante.aspx">REGISTRARSE</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+ 
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
